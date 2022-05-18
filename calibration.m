@@ -1,3 +1,5 @@
+%mpu6050 calibration for Arduino Due
+
 function adjust = calibration()
 mbox = msgbox('Lay on a flat surface','Calibration');
 uiwait(mbox); 
